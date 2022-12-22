@@ -7,7 +7,7 @@
 //
 import Foundation
 
-let kConfigFolderPath = "\(NSHomeDirectory())/.config/clash/"
+let kConfigFolderPath = "\(NSHomeDirectory())/.config/clash2/"
 
 let kDefaultConfigFilePath = "\(kConfigFolderPath)config.yaml"
 
