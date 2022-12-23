@@ -50,11 +50,5 @@ lane :addKeyChain do
       password: "password"
     )
     
-    import_certificate(
-      certificate_path: ".github/certs/dist.p12",
-      keychain_name:"clashBuild",
-      keychain_password:"password",
-      certificate_password:""
-    )
   end
 end
