@@ -51,7 +51,7 @@ lane :addKeyChain do
     )
     
     import_certificate(
-      certificate_path: ".github/certs/apple.cer",
+      certificate_path: ".github/certs/badssl.com-client.p12",
       keychain_name:"clashBuild",
       keychain_password:"password",
       certificate_password:""
