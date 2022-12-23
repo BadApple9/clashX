@@ -14,7 +14,6 @@ jobs:
     - name: import certs
       run: |
         echo `/usr/bin/xcodebuild -version`
-        openssl aes-256-cbc -k  "${{ secrets.ENCRYPTION_SECRET }}" -in ".github/certs/dist.p12.enc" -d -a -out ".github/certs/dist.p12" -md md5
     - name: setup Go
       uses: actions/setup-go@v3
       with:
